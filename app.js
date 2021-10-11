@@ -1,6 +1,7 @@
 const password = document.querySelector('.password');
 const btn = document.querySelector('.btn');
 
+
 btn.addEventListener('click', () =>{
             const chars = "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*()_+~`|}{[]\:;?><,./-=";
                 let passwordLength = 16;
@@ -11,7 +12,14 @@ btn.addEventListener('click', () =>{
                     password += chars.substring(randomNumber,randomNumber + 1);
                 }
                 document.querySelector('.password').value = password;
-            }
-)
+            });
 
 
+// const copyIcon = document.querySelector('.icon');
+
+// copyIcon.addEventListener('click', () => ){
+//       const copyIconbox = querySelector('.password');
+//       copyIconbox.select();
+//       copyIconbox.setSelectionRange(0,9999);
+//       document.execCommand('.icon')
+// }
