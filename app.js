@@ -2,7 +2,7 @@ const password = document.querySelector('.password');
 const btn = document.querySelector('.btn');
 
 btn.addEventListener('click', () =>{
-            const chars = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!@#$%^&*()_+~`|}{[]\:;?><,./-=";
+            const chars = "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*()_+~`|}{[]\:;?><,./-=";
                 let passwordLength = 16;
                 let password = "";
             
