@@ -13,34 +13,40 @@
     width: 100%;
     display: flex;
     justify-content: center;
+    align-items: center;
+    
 }
 .input-block
 {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
-    
-
+    width: 600px;
+    border: 1px solid white;
 }
 .title
 {
     font-size: 30px;
     font-weight: 700;
     color: white;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
-.input-block input 
+.inputBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.inputBox input 
 {
-    padding:10px 15px;
-    width: 100%;
+    width: 400px;
+    padding: 10px 15px;
     outline: none;
     border: none;
     background-color: white;
-    margin-bottom: 20px;
 }
 .btn
 {
+    margin-top: 20px;
     padding: 10px;
     background-color: #eee;
     user-select: none;
@@ -51,4 +57,11 @@
 {
     background-color: #839bf2 ;
     transition: all 0.24s ease-in-out;
+}
+.icon{
+    font-size: 40px;
+    color: white;
+}
+.icon.active{
+    display: none;
 }
