@@ -13,13 +13,3 @@ btn.addEventListener('click', () =>{
                 }
                 document.querySelector('.password').value = password;
             });
-
-
-// const copyIcon = document.querySelector('.icon');
-
-// copyIcon.addEventListener('click', () => ){
-//       const copyIconbox = querySelector('.password');
-//       copyIconbox.select();
-//       copyIconbox.setSelectionRange(0,9999);
-//       document.execCommand('.icon')
-// }
